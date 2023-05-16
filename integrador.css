@@ -1,0 +1,206 @@
+/* menú gris */
+.row.justify-content-md-center{
+    background-color: rgb(53, 58, 64);
+    font-size: 19px;
+    padding-top: 7px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+.col-auto{
+    border: solid 0px rgb(255, 149, 0);
+    text-decoration: none;
+    color: rgb(191, 194, 194);
+}
+a:hover{
+    color: white;
+}
+.col-1{
+    padding-right: 0px;
+}
+#izq{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+.background{
+    background-size:auto;
+    background-repeat: no-repeat;
+    display: flex;
+    filter: brightness(40%);
+    position: relative;    
+}
+.box{
+    background-color: red;
+    color: white;
+/*    width: 600px;
+    bottom: 400px;
+    right: 40px; */
+    position:absolute;
+    text-align: right ;
+    padding: 30px;
+    margin: 100px;      
+}
+
+/* arbol */
+.responsive {
+    width: 100%;
+    height: auto;
+    filter: brightness(70%);
+    position: absolute;
+}
+.background-image{
+    width: 600px;
+    height: 400px;
+    background-color: transparent;
+    margin-left: 100px;
+    margin-top: 200px;
+    z-index: 1;
+    position: relative;
+    filter: opacity(1);
+    color: aliceblue;
+}
+#calle{
+    background-color: transparent;
+    filter: opacity(1);
+    color: aliceblue;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin: 20px;
+    padding: 8px;
+}
+#arbol{
+    background-color: rgb(27, 173, 63);
+    filter: opacity(1);
+    color: aliceblue;
+    border-radius: 5px;
+    border: 1px solid rgb(27, 173, 63);
+    margin: 20px;
+    padding: 8px;
+    margin: auto 0;
+}
+
+/* figuras */
+.stamps{
+    display:inline-flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: center;    
+}
+.card{
+    margin: 15px;
+}
+button{
+    border: none;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.yellow{
+    background-color: rgba(255, 201, 0);
+    border-radius: 5px;
+    font-family: 'Segoe UI', Aria, sans-serif;
+    font-size: 10px;
+    color: black;
+}
+.turquoise{
+    background-color: rgb(26, 148, 214);
+    border-radius: 5px;
+    font-family: 'Segoe UI', Aria, sans-serif;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+.grey{
+    background-color: rgba(108, 117, 122);
+    border-radius: 5px;
+    font-family: 'Segoe UI', Aria, sans-serif;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+.red{
+    background-color: rgb(220, 53, 70);
+    border-radius: 5px;
+    font-family: 'Segoe UI', Aria, sans-serif;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+
+/* foto playa */
+#fotos{
+    border: solid orange 3px;
+}
+#honolulu{
+    background-color: rgb(53, 58, 64);
+    color: white; 
+    font-size: 25px;
+}
+#nuve{
+    font-size: 15px;
+    background-color: rgb(53, 58, 64);
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border: 1px solid white;
+}
+#nubes{
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-right: 10px;
+}
+
+/* formulario*/
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+#padre{
+    display: flex;
+    justify-content: center;    
+}
+#hijo{
+    height: 240px;
+    width: 800px;
+    font-size: 12px;       
+}
+#hija{
+    margin-top: 15px;    
+}
+textarea{
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+#sol{
+    font-size: 15px;
+}
+#tren{
+    float: right;
+    font-size: 15px;
+}
+input{
+    width: 350px;
+    border-radius: 3px;
+    border: 1px solid #ccc;  
+}
+#green{
+    border-radius: 5px;
+    margin-bottom: 100px;
+    padding: 8px;
+    color: white;
+    font-size: 20px;
+}
+#rec2{
+    font-size: 20px;
+}
+
+/* franja final */
+.darkblue {
+    background: linear-gradient(to right,#1c3844 0%,#1e5372 100%);
+}
+.btn{
+    --bs-btn-color:var(white)
+}
